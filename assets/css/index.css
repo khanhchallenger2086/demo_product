@@ -1,0 +1,85 @@
+
+body a {
+    text-decoration: none!important;
+}
+
+p , ul {
+    margin: 0px!important;
+}
+
+.header {
+    background-color: 
+    #F9F1E7;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #3A3A3A;
+    line-height: 24px;
+    padding-left: 8px;
+}
+
+.menu li a i {
+    padding: 7px 15px;
+    color: #3A3A3A;
+}
+
+.header-top {
+    padding: 29px 98px;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.02px;
+    color:  #000000;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+  
+  .input-group .form-control {
+    border: none;
+  }
+  
+  .input-group .btn {
+    background-color: white;
+    border: none;
+    padding: 5px;
+  }
+
+  .input-group .form-control {
+    padding-left: 0px;
+  }
+
+  .input-group .form-control::placeholder {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400px;
+  }
+
+ .input-group .form-control:focus ,.btn:focus {
+    box-shadow:none!important;
+  }
+  
+  
+  .input-group-append .btn i {
+    padding: 0.375rem 0.75rem;
+  }
+  
+  .menu_right li a i {
+    color: white;
+  }
+
