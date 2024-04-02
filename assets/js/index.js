@@ -4,7 +4,8 @@ $(document).ready(function(){
       loop:true,
       dots:true,
       items:3,
-      nav:true
+      nav:true,
+      autoplay:true
     
   })
 });
