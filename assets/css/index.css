@@ -51,7 +51,7 @@ p , ul {
     font-size: 24px;
     font-weight: 700;
     line-height: 29.02px;
-    color:  #000000;
+    color:  #000000!important;
 }
 
 .input-group {
@@ -156,7 +156,7 @@ p , ul {
     width: 100%;
     text-align: center;
     background-color: #E89F71;
-    color:white;
+    color:white!important;
     height: 78px;
     line-height: 78px;
     margin-top: 40px;
@@ -355,4 +355,238 @@ z-index: 1;
 
   .box-product-hover-bottom p img {
     margin-right: 5px;
+  }
+
+  
+  .show-more a {
+    width: 245px;
+    height: 48px;
+    color: #E89F71;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+    border: 1px solid #E89F71;
+    margin: 30px auto ;
+    transition: 0.3s;
+  }
+
+
+  .show-more a:hover {
+    color: white;
+    background-color: #E89F71;
+    border: 1px solid white;
+  }
+
+  .inspiration {
+    background-color: 
+    #FCF8F3;
+    padding: 50px;
+  }
+
+  .inspiration-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  } 
+
+  .inspiration-left h2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+  }
+
+  .inspiration-left p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    
+  }
+
+  .inspiration-left .more a {
+    color: white;
+    width: 176px;
+    height: 48px;
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    margin-top: 20px;
+    border: 1px solid white;
+    transition: 0.3s;
+    background-color: 
+    #E89F71;
+  }
+
+  .inspiration-left .more a:hover {
+    color: #E89F71;
+    background-color: white;
+    border: 1px solid #E89F71;
+  }
+
+  .inspiration-right {
+    position: relative;
+  }
+
+  .box-inspiration-right {
+    position: absolute;
+    background-color: 
+    #FFFFFF;
+    opacity: 0.9;
+    width: 257px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 38px;
+    bottom: 24px;
+    left: 28px;
+  }
+  
+  .box-inspiration-right p:nth-child(1) {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: 
+    #616161;
+  }
+
+  .box-inspiration-right p:nth-child(2) {
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 600;
+    color: 
+    #3A3A3A;
+  }
+
+
+
+  .arrow-right {
+    position: absolute;
+    background-color: 
+    #E89F71;
+    color: white;
+    width: 57px;
+    height: 48px;
+    text-align: center;
+    right: -57px;
+    line-height: 48px;
+    bottom: 0px;
+  }
+
+  .tips-tricks h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: 
+    #3A3A3A;
+  }
+
+
+  .tips-tricks {
+    width: 1200px;
+    overflow: hidden;
+  }
+
+
+  .box-tips-tricks {
+    margin: 20px 10px;
+  }
+
+  .box-tips-tricks:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 13px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+
+  .box-tips-tricks-inside {
+    padding: 16px;
+  }
+
+  .box-tips-tricks-inside h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: 
+    #3A3A3A;
+    line-height: 28.8px;
+  }
+
+  .box-tips-tricks-inside p {
+    color: 
+    #898989;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .owl-dots {
+    color: 
+    #D8D8D8;
+
+  }
+
+  .owl-dots .active {
+    background-color: 
+    #E89F71;
+  }
+
+  
+
+  .owl-nav button {
+    position: absolute;
+    top: calc(50% - 48px);
+    background-color: white!important;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 13px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin: 0;
+  }
+
+  .owl-nav button.owl-prev {
+    left: -14px;
+  }
+  .owl-nav button.owl-next {
+    right: -14px;
+  }
+  
+  .owl-dots {
+    text-align: center;
+    padding: 15px 0px;
+  }
+  .owl-dots button.owl-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: 
+    #D8D8D8!important;
+    margin: 0 10px;
+  
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: #E89F71!important;
+    position: relative;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+
+ 
+  .owl-dot.active span  {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    border: 1px solid #E89F71;
+    top: -8px;
+    left: -8px;
+    border-radius: 50%;
+  }
+
+
+  .owl-nav span {
+      font-size: 70px;    
+      position: relative;
+      top: -10px;
+      font-size: 40px;
+      color: #E89F71;
+  }
+  .owl-nav button:focus {
+      outline: none;
   }
